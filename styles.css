@@ -1,0 +1,123 @@
+body {
+
+  width: 100%;
+  height: 100%;
+}
+.masthead {
+  padding: 1em;
+  width: auto;
+  float: none;
+  text-align: center;
+  margin: auto;
+  border-bottom: 3px solid black;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+.masthead .menu {
+  max-width: inherit;
+}
+.masthead h1 {
+  margin-bottom: 10px;
+}
+.masthead .menu ul {
+  text-align: center;
+}
+.masthead .menu a {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #444;
+  color: #fff;
+  border-radius: 5px;
+}
+.masthead .menu .active a {
+  background: none;
+  border: 1px solid #444;
+  color: #000;
+}
+.masthead .menu li, .masthead .menu li:first-child {
+  border: none;
+  display: inline-block;
+  margin-top: 5px;
+}
+.masthead .menu .menu-extra {
+  display: none;
+}
+
+.main {
+  padding: 2em 40px;
+  hyphens: auto;
+  border-left: none;
+  width: auto;
+  margin-left: 0;
+  min-height: auto;
+}
+.masthead img {
+  max-width: 80px;
+}
+
+.masthead .menu {
+  max-width: inherit;
+  direction: ltr;
+  margin-left: auto;
+  margin-right: auto;
+}
+.masthead .menu ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.masthead .menu li, .masthead .menu li:first-child {
+  border: none;
+  display: inline-block;
+  margin-top: 5px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.masthead .menu a {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #444;
+  color: #fff;
+  border-radius: 5px;
+  border-bottom: none;
+  direction: ltr;
+  text-decoration: none;
+}
+footer {
+  float: none;
+  text-align: center;
+  margin: auto;
+  max-width: 800px;
+  display: block;
+}
+.copyright {
+  text-align: center;
+}
+.copyright a {
+  border-bottom: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+.detail {
+  padding: 2em 40px;
+  hyphens: auto;
+  border-left: none;
+  width: auto;
+  margin: auto;
+  min-height: auto;
+  max-width: 800px;
+
+}
+.detail h1, h2, h3, h4, h5, h6 {
+  margin: 2em auto 1.5em auto;
+}
+h3, h4, h5, h6 {
+  font-size: 16px;
+}
